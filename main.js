@@ -9,10 +9,10 @@ $(function(){
 		var video = document.getElementById('video');
 		if(video.paused){
  		video.play();
- 		$('h1').css('display', 'none');
+ 		$('h1').addClass('op');
 	}else{
 		video.pause();
-		$('h1').css('display', 'block');
+		$('h1').removeClass('op');
 	}
 
 	});
