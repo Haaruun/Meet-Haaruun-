@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: futura;
+}
+#video{
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	z-index: 0;
+	transform: scale(1.05, 1.05);
+}
+
+h1{
+	position: absolute;
+	color: #F44336;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	margin: 50px;
+	height: auto;
+	width: auto;
+	line-height: 50px;
+}
+
+h1 span{
+		background-color: black;
+		padding: 5px;
+}
+.contain{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #F44336;
+}
+
+
+.button{
+	position: absolute;
+	color: white;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: #F44336;
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+	margin: 550px 600px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		transform: rotate(106deg);
+		transition: 0.6s ease all;
+	transition-delay: 0.3s;
+
+}
+
+
+.button span{
+		font-size: 29px;
+		letter-spacing: -5px;
+
+}
+.first{
+	transform: rotate(37deg);
+	display: inline-block;
+	position: relative;
+	
+}
+
+.last{
+	transform: rotate(-62deg);
+	display: inline-block;
+	position: relative;
+	
+}
+
+.turn{
+		transform: rotate(280deg);
+}
+
+.op{
+	opacity: 0;
+	transition: 1s ease all;
+}
