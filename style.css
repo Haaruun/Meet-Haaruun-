@@ -14,9 +14,8 @@
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
-	width: 1280px;
-	height: 720px;
-	transform: scale(1.05, 1.05);
+	width: auto;
+	height: auto;
 }
 
 h1{
