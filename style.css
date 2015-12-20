@@ -87,7 +87,7 @@ h1 span{
 
 
 .turn{
-		transform: rotate(180deg);
+		transform: scale(0.5, 0.5);
 }
 
 .op{
