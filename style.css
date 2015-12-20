@@ -61,6 +61,7 @@ h1 span{
 .button{
 	display: inline-block;
 	color: white;
+	cursor: pointer;
 	background-color: #F44336;
 	height: 70px;
 	width: 70px;
