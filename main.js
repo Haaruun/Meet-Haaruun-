@@ -10,9 +10,11 @@ $(function(){
 		if(video.paused){
  		video.play();
  		$('h1').addClass('op');
+ 		$('.in').html('Pause');
 	}else{
 		video.pause();
 		$('h1').removeClass('op');
+		$('.in').html('Play');
 	}
 
 	});
