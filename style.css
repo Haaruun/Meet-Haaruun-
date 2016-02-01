@@ -37,7 +37,7 @@ h1{
 	top: 0;
 	left: 0;
 	z-index: 999;
-	margin: 50px;
+	margin: 25px;
 	height: auto;
 	width: auto;
 	line-height: 50px;
@@ -58,6 +58,7 @@ h1 span{
     left: 0;
     overflow: hidden;
     background-color: #F44336;
+    transform: scale(0.85);
 }
 
 .buttoncover{
