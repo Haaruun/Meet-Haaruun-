@@ -84,7 +84,7 @@ muteBtn.addEventListener('click', function(){
 
 setTimeout(function(){
    $('.wrap').fadeOut('fast');
-  }, 3000);
+  }, 4500);
 
 
 
