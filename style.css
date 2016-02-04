@@ -10,7 +10,7 @@
 }
 
 .wrap{
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   margin: 0 auto;
   background-color: #F44336;
@@ -148,7 +148,7 @@ z-index: 999;
 }
 
 .main_content{
-height: 100vh;
+height: 110vh;
 width: 100vw;
 background-color: #fff; 
 background-image: 
