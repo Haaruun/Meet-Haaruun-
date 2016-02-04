@@ -5,27 +5,33 @@
 	<title>I'm Haaruun</title>
 	<link rel="stylesheet" href="style.css">
 <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 <body>
 	
 	<div class ="main_content">
-	<h1><span>Hello, My name is Haaruun,</span>  <br><br> <span>and I would love the opportunity to</span>
-		<br> <br><span>join your team! </span> <br><br> <span>I hope you enjoy the video!</span></h1>
+	<h2>Hello, My name is Haaruun, and I would love the opportunity to join your team! I hope you enjoy the video!</h2>
 	<div class="contain">	
-	<video id = "video" preload="auto">
-			<source src="Hire_Final_720.mp4" type="video/mp4" /> 
-			<track kind="caption" src="caption.vtt" /> 
-		</video> 
+	
+    <video id="Video">
+        <source src ="Hire_Final_720.mp4" type="video/mp4">
+    </video>
+    <main>
+    <p id ="playPause" class="con con_button">▶</p>
+    <input class="con con_seek_vol" type="range" id="inputSeek" value="0">
+    <p id ="mute" class="con con_button"><i class="fa fa-volume-up"></i></p>
+    <input class="con con_seek_time" type="range" id="inputVolume" value="1" min ="0" max="1" step="0.1">
+    </main>  
 		</div>
 
 		
-		<div class="buttoncover">
+		<!-- <div class="buttoncover">
 				<div class="button">
 			<span class="in">Play</span>
 		</div>
 
-		</div>
+		</div> -->
 		
 		</div>
 	
