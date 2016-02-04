@@ -9,6 +9,143 @@
 	font-family: 'Futuraone';
 }
 
+.wrap{
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F44336;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    text-align: center;
+z-index: 999;
+}
+
+.wrap h1{
+  position: relative;
+  top: 20%;
+  color: white;
+  font-size: 3em;
+
+}
+
+.bouncing_ball{
+  position: relative;
+  width: 4rem;
+  margin: 0 auto;
+  height: 12rem;
+  top: 20%;
+  
+}
+
+.ball{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  animation: bounce 1s infinite;
+}
+
+.span{
+  height: 1rem;
+  width: 1rem;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0;
+}
+
+.span:nth-of-type(1){
+  animation: load_one 2s infinite linear;
+}
+
+.span:nth-of-type(2){
+  animation: load_two 2s infinite linear;
+}
+.span:nth-of-type(3){
+  animation: load_three 2s infinite linear;
+}
+
+@keyframes load_one{
+  0%{
+    opacity: 0;
+  }
+  15%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes load_two{
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes load_three{
+  0%{
+    opacity: 0;
+  }
+  65%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@keyframes bounce{
+  0%{
+    top: 0;
+    animation-timing-function: ease-in;
+  }
+  34%{
+    height: 4rem;
+    width: 4rem;
+  }
+
+  35%{
+    top: 8rem;
+    height: 3rem;
+    width: 4.3rem;
+    animation-timing-function: ease-out;
+  }
+  45%{
+    height: 4rem;
+    width: 4rem;
+  }
+  90%{
+    top: 0;
+  }
+  100%{
+    top: 0;
+  }
+}
 
 .main_content{
 height: 100vh;
